@@ -10,10 +10,6 @@ Below are our sales predictions for this customer.
 # st.line_chart(df)
 # file = st.file_uploader("Pick a file")
 
-"""
-# My first app
-Here's our first attempt at using data to create a table:
-"""
 
 # df = pd.DataFrame({
 #   'first column': [1, 2, 3, 4],
