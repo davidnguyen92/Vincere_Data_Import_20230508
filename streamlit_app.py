@@ -1,6 +1,7 @@
 import streamlit as st
 import time
 
+@st.cache_data 
 def load_data(url):
     df = pd.read_csv(url)  # 👈 Download the data
     return df
